@@ -1,0 +1,104 @@
+/* Side bar with icons and bio */
+.bio_bar{
+	width: 20%;
+	padding: 5%;
+	margin-left: 0%;
+	margin-top: 0%;
+	
+	text-align: left;
+	height: 100%; 	
+	background:#7f7f7f;
+  	background:rgba(0,0,0,0.6);
+  	float: left;
+  	top:0
+  	left:0; 
+}
+
+<<<<<<< HEAD
+=======
+@media all and (max-width: 1000px) {
+.bio_bar{
+	width: 30%;
+	padding:5%;
+	text-align: left;
+
+	}
+}
+>>>>>>> FETCH_HEAD
+
+.icon img{
+	max-width: 20%;
+	vertical-align: middle;
+	margin-right: 2%
+
+}
+
+.icon{
+	display: inline-block;
+	width: 90%;
+	height: 7.5%;
+	margin-bottom: 2%;	
+}
+
+
+@media all and (max-width: 500px) {
+.bio_bar{
+	width: 100%;
+<<<<<<< HEAD
+	padding: 0%;
+	margin: 0%;
+=======
+>>>>>>> FETCH_HEAD
+}
+.icon img{
+	max-width: 25%;
+	vertical-align: middle;
+	margin-right: 2%
+}
+.icon{
+	display: inline-block;
+	width: 50%;
+	height: 50%;
+	margin-bottom: 5%;	
+}
+html, body {
+	padding:0%;
+	margin:0%;
+}
+
+
+}
+/* End of bio bar section */
+
+
+
+
+h1{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+}
+
+
+body, a{
+	
+	color: white;
+	
+	font-family: 'Varela', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+strong{
+	font-weight: 800;
+	font-size: 22px;
+}
+
+.bio_link a{
+	color: #336699;
+}
+body, html{
+	height: 100%;
+}
