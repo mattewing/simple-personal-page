@@ -1,0 +1,81 @@
+
+/* Side bar with icons and bio */
+.bio_bar{
+	width: 40%;
+	padding-left: 5%;
+	float: left;
+	 
+}
+/*
+@media all and (max-width: 1000px) {
+.bio_bar{
+	width: 80%;
+	margin-left: 5%;
+	margin-top: 1.5%;
+	text-align: left;
+
+	}
+}
+*/
+.icon img{
+	max-width: 25%;
+	vertical-align: middle;
+	margin-right: 2%
+
+}
+
+.icon{
+	display: inline-block;
+	width: 45%;
+	height: 15%;
+	margin-bottom: 5%;	
+}
+
+
+@media all and (max-width: 500px) {
+.icon img{
+	max-width: 25%;
+	vertical-align: middle;
+	margin-right: 2%
+}
+.icon{
+	display: inline-block;
+	width: 100%;
+	height: 25%;
+	margin-bottom: 5%;
+	
+}
+}
+/* End of bio bar section */
+
+body, html{
+	margin:0%;
+}
+
+
+h1{
+	font-family: 'Varela Round', sans-serif;
+	font-weight: 800;
+	font-size: 60px;
+}
+
+
+body, a{
+	
+	color: black;
+	font-family: 'Varela', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+strong{
+	font-weight: 800;
+	font-size: 22px;
+}
+
+.bio_link a{
+	color: #336699;
+}
+
