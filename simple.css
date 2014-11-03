@@ -6,17 +6,7 @@
 	float: left;
 	 
 }
-/*
-@media all and (max-width: 1000px) {
-.bio_bar{
-	width: 80%;
-	margin-left: 5%;
-	margin-top: 1.5%;
-	text-align: left;
 
-	}
-}
-*/
 .icon img{
 	max-width: 25%;
 	vertical-align: middle;
@@ -32,21 +22,39 @@
 }
 
 
-@media all and (max-width: 500px) {
+
+@media all and (max-width: 800px) {
+.bio_bar{
+	width: 70%;
+	padding: 3.5%;
+	margin: 0%;
+	height: 100%;
+	
+
+}
 .icon img{
 	max-width: 25%;
 	vertical-align: middle;
-	margin-right: 2%
+	margin-right: 2%;
+	max-height: 50px;
+
 }
 .icon{
 	display: inline-block;
-	width: 100%;
-	height: 25%;
+	width: 50%;
+	height: 10%;
 	margin-bottom: 5%;
-	
+	vertical-align: top;
+
 }
+html, body {
+	margin:0%;
+
 }
-/* End of bio bar section */
+
+
+}
+
 
 body, html{
 	margin:0%;
