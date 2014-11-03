@@ -1,3 +1,22 @@
+/* Header */
+
+header{
+
+	background: black;
+	display:inline-block;
+	height: 10%;
+	width: 100%;
+	color: white;
+	cursor: pointer;
+	text-align: left;
+	margin: 0%
+}
+header h1{
+	margin-top: .5%;
+	margin-bottom: .5%;
+	margin-left: 2%;
+}
+
 /* Nav Bar */
 .nav_wrapper{
 	display: inline-block;
@@ -58,12 +77,18 @@ nav .icon{
 
 li{ 
 	margin-left:5%;
-	margin-bottom: 2.5%;
+	margin-bottom: 4%;
 	font-size: 18px;
 }
 
 /* Mobile*/
 @media all and (max-width: 600px) {
+
+	/*header
+	header{
+		display:inline-block;
+	}
+*/
 	.nav_text{
 		display: none;
 	}
@@ -113,12 +138,6 @@ li{
 /* End of Mobile*/
 
 
-html, body{
-
-}
-
-
-
 .container a{
 	text-decoration: none;
 	color: #336699;
@@ -137,7 +156,9 @@ body, a{
 }
 h1{
 	font-family: 'Varela Round', sans-serif;
-	font-weight: 800;
-	
+	font-weight: 800;	
 }
 
+body{
+	margin: 0%
+}

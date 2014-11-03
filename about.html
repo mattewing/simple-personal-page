@@ -8,9 +8,17 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
 <body>
+
+<!--Header menu bar for mobile-->
+<header>
+
+<h1>&lt; ME &gt;</h1>
+
+</header>
 
 <!--Nav bar-->
 <div class = "nav_wrapper">
@@ -36,7 +44,7 @@
 	
 	<div class ="icon">
 	<a href="projects.html">
-	<img src="assets/wrench2.png" alt="projects">
+	<img src="assets/wrench.png" alt="projects">
 	<span class="nav_text">Projects</span>
 	</a>
 	</div>
@@ -86,5 +94,12 @@
 		
 </div>
 
+<script>
+//Nav toggle, triggered by menu click
+$('header').click(function() {
+	$('.nav_wrapper').toggle();	
+})
+
+</script>
 </body>
 </html>
