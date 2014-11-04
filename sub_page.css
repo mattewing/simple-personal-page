@@ -84,20 +84,15 @@ li{
 /* Mobile*/
 @media all and (max-width: 600px) {
 
-	/*header
-	header{
-		display:inline-block;
-	}
-*/
 	.nav_text{
 		display: none;
 	}
 
 	.nav_wrapper{
-		display: inline-block;
+		display: none;
 		width:15%;
 		height: 100%;
-		min-height: 100%
+		min-height: 100%;
 	}
 
 	nav .icon img{
@@ -117,26 +112,28 @@ li{
 		display: inline-block;
 		top: 0;
     	bottom: 0;
+    	width: 70%;
    
 	}
 	.container p{
-		font-size: 16px;
+		font-size: 14px;
 
 	}
 	h1{
 		font-size: 20px;
 	}
 	
+
+
 	li{ 
 	margin-left:0%;
 	margin-bottom: 2.5%;
-	font-size: 16px;
+	font-size: 14px;
 	}
 }
 
 }
 /* End of Mobile*/
-
 
 .container a{
 	text-decoration: none;
@@ -160,5 +157,8 @@ h1{
 }
 
 body{
-	margin: 0%
+	margin: 0%;
+	display: inline-block !important;
 }
+
+
