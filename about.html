@@ -96,8 +96,39 @@
 //Nav toggle, triggered by menu click
 
 $('header').click(function() {
-	$('.nav_wrapper').toggle();	
-})
+	$('.nav_wrapper').toggle();		
+});
+
+
+$('header').click(function() {
+	if ($(".nav_wrapper").css("display") == "none"){
+		$(".container").css("width", "90%");
+	}
+
+	else if ($(".nav_wrapper").css("display") == "block"){
+		$(".container").css("width", "70%");
+	}
+
+	else {
+		$(".container").css("width", "70%");	
+	}
+});
+
+
+//var nav_width = $('.nav_wrapper').css("width")
+//		if (nav_width == 0) {
+//			$('.container').css('background', 'red')
+//			}
+//		})
+
+
+//resize text container for mobile w/o menu
+
+//$( window ).resize(function() {
+//	var con_width = $("html").width() - $(".nav_wrapper").width() - 75;
+//	$(".container").css("width", con_width);
+//});
+
 
 </script>
 </body>

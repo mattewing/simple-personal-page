@@ -3,7 +3,7 @@
 header{
 
 	background: black;
-	display:inline-block;
+	display:none;
 	height: 10%;
 	width: 100%;
 	color: white;
@@ -19,7 +19,7 @@ header h1{
 
 /* Nav Bar */
 .nav_wrapper{
-	display: inline-block;
+	float: left;
 	height: 100%;
 	min-height: 100%;
 	width:15%;
@@ -53,7 +53,7 @@ nav .icon{
 
 /* Main content */
 .container {
-	display: inline-block;
+	float:left;
 	width: 70%;
 	height: 100%;
 	min-height: 100%;
@@ -83,12 +83,16 @@ li{
 
 /* Mobile*/
 @media all and (max-width: 600px) {
+	header{
+		display: inline-block;
+	}
 
 	.nav_text{
 		display: none;
 	}
 
 	.nav_wrapper{
+		float:left;
 		display: none;
 		width:15%;
 		height: 100%;
@@ -109,10 +113,10 @@ li{
 	.container{	
 		height: 100%;
 		min-height: 100%;
-		display: inline-block;
+		float:left;
 		top: 0;
     	bottom: 0;
-    	width: 70%;
+    	width: 90%;
    
 	}
 	.container p{
@@ -159,6 +163,7 @@ h1{
 body{
 	margin: 0%;
 	display: inline-block !important;
+	width: 100%;
 }
 
 
