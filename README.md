@@ -1,4 +1,4 @@
-Simple Personal Page
-==========================
+nataliefoster.github.io
+===================
 
-Super Simple Personal page using Github pages and some basic HTML/CSS
+This is my pesonal page

@@ -1,66 +1,52 @@
 /* Side bar with icons and bio */
+
 .bio_bar{
 	width: 20%;
-	padding: 3%;
+	padding: 5%;
 	margin-left: 0%;
 	margin-top: 0%;
+	
 	text-align: left;
-	height: 100%;
-	background:#7f7f7f;
+	height: 100%; 	
+	
   	background:rgba(0,0,0,0.6);
   	float: left;
   	top:0;
   	left:0; 
 }
 
+@media all and (max-width: 1000px) {
+.bio_bar{
+	width: 30%;
+	padding:5%;
+	text-align: left;
 
-.icon img{
-	max-width: 20%;
-	vertical-align: middle;
-	margin-right: 2%
-
+	}
 }
 
-.icon{
-	display: inline-block;
-	width: 90%;
-	height: 7.5%;
-	margin-bottom: 2%;	
+.fa-inside{
+	color: black;
+}
+
+.fa{
+	font-size: 2em;
+}
+
+.icons{
+	margin-bottom: 2%;
 }
 
 
-@media all and (max-width: 800px) {
+
+@media all and (max-width: 500px) {
 .bio_bar{
 	width: 100%;
-	padding: 2.5%;
-	margin: 0%;
-	height: 100%;
-	
-
 }
-.icon img{
-	max-width: 25%;
-	vertical-align: middle;
-	margin-right: 2%;
-	max-height: 50px;
-
-}
-.icon{
-	display: inline-block;
-	width: 50%;
-	height: 10%;
-	margin-bottom: 5%;
-	vertical-align: top;
-
-}
-html, body {
-	margin:0%;
-
-}
-
 
 }
 /* End of bio bar section */
+
+
 
 
 h1{
@@ -73,12 +59,11 @@ h1{
 body, a{
 	
 	color: white;
-	margin: 0%;
+	
 	font-family: 'Varela', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	text-decoration: none;
-
 
 }
 
@@ -92,4 +77,13 @@ strong{
 }
 body, html{
 	height: 100%;
+	margin: 0;
+  	background: url("assets/nat_head.jpg") no-repeat center center  fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	}
+
 }
+

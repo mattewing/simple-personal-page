@@ -1,33 +1,11 @@
-/* Header */
-
-header{
-
-	background: black;
-	display:none;
-	height: 10%;
-	width: 100%;
-	color: white;
-	cursor: pointer;
-	text-align: left;
-	margin: 0%
-}
-header h1{
-	margin-top: .5%;
-	margin-bottom: .5%;
-	margin-left: 2%;
-}
-
 /* Nav Bar */
 .nav_wrapper{
-	float: left;
+	display: inline-block;
 	height: 100%;
 	min-height: 100%;
-	width:15%;
+	width:20%;
 	vertical-align: top;
 	margin-left: 5%;
-	top: 0;
-    bottom: 0;
-    font-size: 20px;
 }
 
 nav{
@@ -53,7 +31,7 @@ nav .icon{
 
 /* Main content */
 .container {
-	float:left;
+	display: inline-block;
 	width: 70%;
 	height: 100%;
 	min-height: 100%;
@@ -61,42 +39,30 @@ nav .icon{
 	top: 0;
     bottom: 0;
 
+
 }
 
 .container h1 {
 	text-align: center;
 	margin-left: 5%;
-	font-size: 40px
 }
 
 .container p{
 	text-align: left;
 	margin-left: 5%;
-	font-size: 18px;
-}
-
-li{ 
-	margin-left:5%;
-	margin-bottom: 4%;
-	font-size: 18px;
 }
 
 /* Mobile*/
 @media all and (max-width: 600px) {
-	header{
-		display: inline-block;
-	}
-
 	.nav_text{
 		display: none;
 	}
 
 	.nav_wrapper{
-		float:left;
-		display: none;
+		display: inline-block;
 		width:15%;
 		height: 100%;
-		min-height: 100%;
+		min-height: 100%
 	}
 
 	nav .icon img{
@@ -113,35 +79,29 @@ li{
 	.container{	
 		height: 100%;
 		min-height: 100%;
-		float:left;
-		top: 0;
-    	bottom: 0;
-    	width: 90%;
-   
-	}
-	.container p{
-		font-size: 14px;
-
+		display: inline-block;
+		
 	}
 	h1{
-		font-size: 20px;
-	}
+		font-size: 30px;
 	
-
-
-	li{ 
-	margin-left:0%;
-	margin-bottom: 2.5%;
-	font-size: 14px;
 	}
-}
 
 }
-/* End of Mobile*/
 
-.container a{
-	text-decoration: none;
-	color: #336699;
+
+
+/* End of Nav bar*/
+
+
+
+
+/* End of main content */
+
+
+html, body{
+height: 100%;
+min-height: 100%;
 
 }
 
@@ -152,18 +112,12 @@ body, a{
 	background: white;
 	font-family: 'Varela', sans-serif;
 	font-weight: 300;
+	font-size: 20px;
 	text-decoration: none;
 
 }
 h1{
 	font-family: 'Varela Round', sans-serif;
-	font-weight: 800;	
+	font-weight: 800;
+	font-size: 60px;
 }
-
-body{
-	margin: 0%;
-	display: inline-block !important;
-	width: 100%;
-}
-
-
