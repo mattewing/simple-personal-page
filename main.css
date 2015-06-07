@@ -1,7 +1,6 @@
-/* Side bar with icons and bio */
 
-.bio_bar{
-	width: 20%;
+.bio{
+	width: 30%;
 	padding: 5%;
 	margin-left: 0%;
 	margin-top: 0%;
@@ -11,13 +10,16 @@
 	
   	background:rgba(0,0,0,0.6);
   	float: left;
-  	top:0;
-  	left:0; 
+  
+}
+
+h1{
+	margin-top:4%;
 }
 
 @media all and (max-width: 1000px) {
-.bio_bar{
-	width: 30%;
+.bio{
+	width: 50%;
 	padding:5%;
 	text-align: left;
 
@@ -39,14 +41,18 @@
 
 
 @media all and (max-width: 500px) {
-.bio_bar{
+.bio{
 	width: 100%;
 }
+h1{
+	margin:1%;
+}
+p{
+	margin-right: 10%;
+}
+
 
 }
-/* End of bio bar section */
-
-
 
 
 h1{
@@ -72,13 +78,15 @@ strong{
 	font-size: 22px;
 }
 
-.bio_link a{
-	color: #336699;
+html{
+	height:100%;
+	margin:0%;
 }
-body, html{
+
+body{
 	height: 100%;
 	margin: 0;
-  	background: url("assets/nat_head.jpg") no-repeat center center  fixed;
+  	background: url("assets/sample.jpg") no-repeat center center  fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
